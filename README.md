@@ -27,6 +27,7 @@ I build the React and Next.js consoles that security analysts rely on during liv
 
 | Project | What it is | Stack |
 |---|---|---|
+| [use-batched-ring-buffer](https://github.com/shreyasheoran/use-batched-ring-buffer) | React hook for high-rate event streams: ring buffer + batched flushes. Kept 60 fps at ~20,000 alerts/s in a browser benchmark | TypeScript · React |
 | [PathFinder](https://github.com/shreyasheoran/PathFinder) | Grid pathfinding visualizer comparing backtracking DFS and Dijkstra | React · Go |
 
 ### Find me
