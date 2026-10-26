@@ -18,8 +18,8 @@ I build the React and Next.js consoles that security analysts rely on during liv
 ### Stack
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,d3,graphql,go,kafka,elasticsearch,postgres,redis,docker,kubernetes,aws,jest,cypress&perline=9&theme=dark">
-  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,d3,graphql,go,kafka,elasticsearch,postgres,redis,docker,kubernetes,aws,jest,cypress&perline=9&theme=light">
+  <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Credux%2Cmaterialui%2Cd3%2Cgraphql%2Cgo%2Ckafka%2Celasticsearch%2Cpostgres%2Credis%2Cdocker%2Ckubernetes%2Caws%2Cjest%2Ccypress&perline=9&theme=dark">
+  <source media="(prefers-color-scheme: light)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Creact%2Cnextjs%2Credux%2Cmaterialui%2Cd3%2Cgraphql%2Cgo%2Ckafka%2Celasticsearch%2Cpostgres%2Credis%2Cdocker%2Ckubernetes%2Caws%2Cjest%2Ccypress&perline=9&theme=light">
   <img alt="TypeScript, JavaScript, React, Next.js, Redux, Material UI, D3.js, GraphQL, Go, Kafka, Elasticsearch, PostgreSQL, Redis, Docker, Kubernetes, AWS, Jest, Cypress" src="https://skillicons.dev/icons?i=ts,js,react,nextjs,redux,materialui,d3,graphql,go,kafka,elasticsearch,postgres,redis,docker,kubernetes,aws,jest,cypress&perline=9&theme=light">
 </picture>
 
