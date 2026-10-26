@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="t d">
+<title id="t">Shreya Sheoran, Frontend Engineer (SDE II)</title>
+<desc id="d">Real-time, data-heavy UIs that stay fast under load. React, TypeScript, Next.js and Go. An animated live alert stream shows alerts arriving and burst render time dropping from 850 ms to 45 ms.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBF8F2"/><stop offset="1" stop-color="#F1EBDD"/></linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#C9A24D" stop-opacity="0.12"/><stop offset="1" stop-color="#C9A24D" stop-opacity="0"/></radialGradient>
+  <pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#0F1B33" stroke-opacity="0.055"/></pattern>
+  <clipPath id="tick"><rect x="698" y="84" width="454" height="130"/></clipPath>
+  <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="0.18" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="0.82" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="1"/></linearGradient>
+</defs>
+<style>
+  .sans{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace}
+  .eyebrow{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:13px;letter-spacing:2.6px;fill:#94722A;font-weight:600}
+  .name{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:54px;font-weight:700;fill:#0F1B33;letter-spacing:-0.5px}
+  .tag{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:19px;fill:#4B5A78}
+  .chip{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13px;font-weight:600;fill:#0F1B33}
+  .meta{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#4B5A78}
+  .sev{font-size:11px;font-weight:700;letter-spacing:0.5px}
+  .msg{font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;font-size:13.5px;fill:#0F1B33}
+  .host{font-size:11px;fill:#66728C}
+  .ctitle{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:12px;fill:#66728C}
+  .pill{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:11.5px;font-weight:700;fill:#94722A}
+  .ticker{animation:tick 7s linear infinite}
+  @keyframes tick{from{transform:translateY(0)}to{transform:translateY(-130px)}}
+  .ring{transform-box:fill-box;transform-origin:center;opacity:0;animation:ring 2s ease-out infinite}
+  @keyframes ring{0%{transform:scale(1);opacity:.7}100%{transform:scale(3.2);opacity:0}}
+  .bar{transform-box:fill-box;transform-origin:left center;transform:scaleX(0.06);animation:bar 6s ease-in-out infinite}
+  @keyframes bar{0%,22%{transform:scaleX(1)}38%,88%{transform:scaleX(0.06)}100%{transform:scaleX(1)}}
+  .v850{opacity:0;animation:v850 6s ease-in-out infinite} .v45{opacity:1;animation:v45 6s ease-in-out infinite}
+  @keyframes v850{0%,24%{opacity:1}32%,92%{opacity:0}100%{opacity:1}}
+  @keyframes v45{0%,28%{opacity:0}36%,88%{opacity:1}96%,100%{opacity:0}}
+  @media (prefers-reduced-motion: reduce){.ticker,.ring,.bar,.v850,.v45{animation:none}}
+</style>
+<rect width="1200" height="300" rx="18" fill="url(#bg)"/>
+<rect width="1200" height="300" rx="18" fill="url(#grid)"/>
+<ellipse cx="925" cy="150" rx="380" ry="190" fill="url(#glow)"/>
+
+<circle cx="66" cy="78" r="5" fill="#94722A"/>
+<circle class="ring" cx="66" cy="78" r="5" fill="none" stroke="#94722A" stroke-width="2"/>
+<text x="82" y="83" class="eyebrow">FRONTEND ENGINEER · SDE II</text>
+<text x="58" y="146" class="name">Shreya Sheoran</text>
+<text x="60" y="184" class="tag">Real-time, data-heavy UIs that stay fast under load.</text>
+<rect x="60" y="214" width="65" height="28" rx="14" fill="#0F1B33" fill-opacity="0.05" stroke="#D8CFB8"/><text x="92.5" y="232.5" class="chip" text-anchor="middle">React</text><rect x="133" y="214" width="105" height="28" rx="14" fill="#0F1B33" fill-opacity="0.05" stroke="#D8CFB8"/><text x="185.5" y="232.5" class="chip" text-anchor="middle">TypeScript</text><rect x="246" y="214" width="81" height="28" rx="14" fill="#0F1B33" fill-opacity="0.05" stroke="#D8CFB8"/><text x="286.5" y="232.5" class="chip" text-anchor="middle">Next.js</text><rect x="335" y="214" width="41" height="28" rx="14" fill="#0F1B33" fill-opacity="0.05" stroke="#D8CFB8"/><text x="355.5" y="232.5" class="chip" text-anchor="middle">Go</text>
+<text x="60" y="272" class="meta">WiJungle · Gurugram, India</text>
+
+<rect x="690" y="36" width="470" height="228" rx="14" fill="#FFFFFF" stroke="#E2D9C4"/>
+<circle cx="712" cy="60" r="4" fill="#D1433B"/><circle cx="726" cy="60" r="4" fill="#C77A1E"/><circle cx="740" cy="60" r="4" fill="#3E8797"/>
+<text x="756" y="64" class="ctitle">alert-stream · live</text>
+<rect x="990" y="48" width="150" height="24" rx="12" fill="#94722A" fill-opacity="0.14"/>
+<text x="1065" y="64" class="pill" text-anchor="middle">&lt; 45 ms to screen</text>
+<line x1="704" y1="78" x2="1146" y2="78" stroke="#E2D9C4"/>
+<g clip-path="url(#tick)"><g class="ticker"><g><circle cx="714" cy="97.0" r="4" fill="#D1433B"/><text x="728" y="101.0" class="mono sev" fill="#D1433B">CRIT</text><text x="782" y="101.5" class="msg">C2 beacon detected</text><text x="1138" y="101.0" class="mono host" text-anchor="end">edge-fw-02</text></g><g><circle cx="714" cy="123.0" r="4" fill="#C77A1E"/><text x="728" y="127.0" class="mono sev" fill="#C77A1E">HIGH</text><text x="782" y="127.5" class="msg">Brute-force burst</text><text x="1138" y="127.0" class="mono host" text-anchor="end">vpn-gw-01</text></g><g><circle cx="714" cy="149.0" r="4" fill="#A8832F"/><text x="728" y="153.0" class="mono sev" fill="#A8832F">MED</text><text x="782" y="153.5" class="msg">DNS tunnelling pattern</text><text x="1138" y="153.0" class="mono host" text-anchor="end">dns-03</text></g><g><circle cx="714" cy="175.0" r="4" fill="#3E8797"/><text x="728" y="179.0" class="mono sev" fill="#3E8797">LOW</text><text x="782" y="179.5" class="msg">Policy drift</text><text x="1138" y="179.0" class="mono host" text-anchor="end">core-fw</text></g><g><circle cx="714" cy="201.0" r="4" fill="#C77A1E"/><text x="728" y="205.0" class="mono sev" fill="#C77A1E">HIGH</text><text x="782" y="205.5" class="msg">Sandbox verdict: malicious</text><text x="1138" y="205.0" class="mono host" text-anchor="end">apt-07</text></g><g><circle cx="714" cy="227.0" r="4" fill="#D1433B"/><text x="728" y="231.0" class="mono sev" fill="#D1433B">CRIT</text><text x="782" y="231.5" class="msg">C2 beacon detected</text><text x="1138" y="231.0" class="mono host" text-anchor="end">edge-fw-02</text></g><g><circle cx="714" cy="253.0" r="4" fill="#C77A1E"/><text x="728" y="257.0" class="mono sev" fill="#C77A1E">HIGH</text><text x="782" y="257.5" class="msg">Brute-force burst</text><text x="1138" y="257.0" class="mono host" text-anchor="end">vpn-gw-01</text></g><g><circle cx="714" cy="279.0" r="4" fill="#A8832F"/><text x="728" y="283.0" class="mono sev" fill="#A8832F">MED</text><text x="782" y="283.5" class="msg">DNS tunnelling pattern</text><text x="1138" y="283.0" class="mono host" text-anchor="end">dns-03</text></g><g><circle cx="714" cy="305.0" r="4" fill="#3E8797"/><text x="728" y="309.0" class="mono sev" fill="#3E8797">LOW</text><text x="782" y="309.5" class="msg">Policy drift</text><text x="1138" y="309.0" class="mono host" text-anchor="end">core-fw</text></g><g><circle cx="714" cy="331.0" r="4" fill="#C77A1E"/><text x="728" y="335.0" class="mono sev" fill="#C77A1E">HIGH</text><text x="782" y="335.5" class="msg">Sandbox verdict: malicious</text><text x="1138" y="335.0" class="mono host" text-anchor="end">apt-07</text></g></g></g>
+<rect x="698" y="84" width="454" height="130" fill="url(#fade)"/>
+<line x1="704" y1="220" x2="1146" y2="220" stroke="#E2D9C4"/>
+<text x="712" y="245" class="ctitle">burst render</text>
+<rect x="812" y="235" width="250" height="10" rx="5" fill="#ECE5D3"/>
+<rect class="bar" x="812" y="235" width="250" height="10" rx="5" fill="#94722A"/>
+<text class="pill v850" x="1138" y="245" text-anchor="end">850 ms</text>
+<text class="pill v45" x="1138" y="245" text-anchor="end">45 ms</text>
+</svg>
