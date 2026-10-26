@@ -1,16 +1,17 @@
-## Hi there 👋
+## Shreya Sheoran
 
-<!--
-**shreyasheoran/shreyasheoran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Frontend Engineer (SDE II) at WiJungle. I build React and Next.js consoles for security operations teams, and the Go services behind them, with a focus on real-time, data-heavy UIs that stay fast under load.
 
-Here are some ideas to get you started:
+**Stack:** TypeScript · JavaScript · React · Next.js · Redux Toolkit · TanStack Query · D3.js · WebSockets · Go · Kafka · Elasticsearch · PostgreSQL · Redis · Jest · Cypress · Docker · Kubernetes
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Highlights from my work at WiJungle** (closed source)
+
+- Replaced alert polling with Go WebSockets: alerts reach analysts in under 45 ms
+- Ring buffer, batched renders and virtualization: burst render time 850 ms → 45 ms
+- Go + Kafka ingestion into Elasticsearch: 360M documents, p95 search under 400 ms
+
+**Projects**
+
+- [PathFinder](https://github.com/shreyasheoran/PathFinder): grid pathfinding visualizer comparing backtracking DFS and Dijkstra (React + Go)
+
+**Elsewhere:** [LinkedIn](https://www.linkedin.com/in/shreya-sheoran)
