@@ -28,6 +28,7 @@ Software Development Engineer II building React, Next.js and Go systems for real
 | Project | What it is | Stack |
 |---|---|---|
 | [use-batched-ring-buffer](https://github.com/shreyasheoran/use-batched-ring-buffer) | Production-inspired React hook for bounded, batched event streams; benchmarked at ~20,000 alerts/s | TypeScript · React |
+| [Real-time Security Dashboard](https://github.com/shreyasheoran/realtime-security-dashboard) | Synthetic high-throughput alert-triage console and reliability lab | React � TypeScript |
 | [SecOps-LLM](https://github.com/shreyasheoran/secops-llm) | Incident-assistance prototype combining grounded retrieval, streaming UI and IOC enrichment | Next.js · TypeScript · Go · PostgreSQL |
 | [PathFinder](https://github.com/shreyasheoran/PathFinder) | React and Go implementation comparing grid pathfinding algorithms | React · Go |
 
