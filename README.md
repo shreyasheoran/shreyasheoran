@@ -4,7 +4,7 @@
   <img alt="Shreya Sheoran, Frontend Engineer (SDE II). Real-time, data-heavy UIs that stay fast under load." src="./assets/header-light.svg" width="100%">
 </picture>
 
-I build the React and Next.js consoles that security analysts rely on during live attacks, and the Go services that feed them. My focus is real-time, data-heavy interfaces that stay fast and accessible under load.
+Software Development Engineer II building React, Next.js and Go systems for real-time security operations. I specialize in fast, accessible interfaces for data-heavy workflows—and the distributed services behind them.
 
 ### What I've built at WiJungle
 
@@ -27,8 +27,9 @@ I build the React and Next.js consoles that security analysts rely on during liv
 
 | Project | What it is | Stack |
 |---|---|---|
-| [use-batched-ring-buffer](https://github.com/shreyasheoran/use-batched-ring-buffer) | React hook for high-rate event streams: ring buffer + batched flushes. Kept 60 fps at ~20,000 alerts/s in a browser benchmark | TypeScript · React |
-| [PathFinder](https://github.com/shreyasheoran/PathFinder) | Grid pathfinding visualizer comparing backtracking DFS and Dijkstra | React · Go |
+| [use-batched-ring-buffer](https://github.com/shreyasheoran/use-batched-ring-buffer) | Production-inspired React hook for bounded, batched event streams; benchmarked at ~20,000 alerts/s | TypeScript · React |
+| [SecOps-LLM](https://github.com/shreyasheoran/secops-llm) | Incident-assistance prototype combining grounded retrieval, streaming UI and IOC enrichment | Next.js · TypeScript · Go · PostgreSQL |
+| [PathFinder](https://github.com/shreyasheoran/PathFinder) | React and Go implementation comparing grid pathfinding algorithms | React · Go |
 
 ### Find me
 
